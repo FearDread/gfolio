@@ -15,9 +15,10 @@ images:
     alt: my photo
 ---
 
-# <Typewriter>Carl Hanson</Typewriter>
+# <Typewriter>G. Haptonstall</Typewriter>
+# <Typewriter>Sys Admin</Typewriter>
 
-# *Web Developer* <span>&</span> *Growth Consultant*
+# *Web Developer* <span>&</span> *Dev Ops Consultant*
 
 Sometimes five Imprimaturs are seen together dialogue-wise in the
 piazza of one title-page, complimenting and ducking each to other with

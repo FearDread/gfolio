@@ -1,0 +1,58 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Carl Hanson Personal Site",
+    "home_page_url": "http://localhost:3000",
+    "feed_url": "/home/feardread/_workspace/_git/gfolio/public/feed/projects/feed.json",
+    "description": "A short description goes here.",
+    "icon": "http://localhost:3000/favicon.ico",
+    "author": {
+        "name": "Carl Hanson",
+        "url": "https://twitter.com/handle"
+    },
+    "items": [
+        {
+            "id": "http://localhost:3000/projects/agency-website-development-for-dev-x",
+            "url": "http://localhost:3000/projects/agency-website-development-for-dev-x",
+            "title": "Agency website design for devops company",
+            "summary": "Lorem ipsum dolor sit amet consectetur adipiscing elit mattis faucibus odio feugiat arcu scelerisque drogon sit amenot.",
+            "date_modified": "2022-11-21T00:00:00.000Z",
+            "author": {
+                "name": "Carl Hanson",
+                "url": "https://twitter.com/handle"
+            }
+        },
+        {
+            "id": "http://localhost:3000/projects/application-design-for-finance-startup",
+            "url": "http://localhost:3000/projects/application-design-for-finance-startup",
+            "title": "Application design for finance startup",
+            "summary": "The Time Traveller (for so it will be convenient to speak of him) was expounding a recondite matter to us.",
+            "date_modified": "2022-11-21T00:00:00.000Z",
+            "author": {
+                "name": "Carl Hanson",
+                "url": "https://twitter.com/handle"
+            }
+        },
+        {
+            "id": "http://localhost:3000/projects/brand-refresh-for-technology-app",
+            "url": "http://localhost:3000/projects/brand-refresh-for-technology-app",
+            "title": "Brand refresh for saas cloud platform application",
+            "summary": "The Time Traveller (for so it will be convenient to speak of him) was expounding a recondite matter to us.",
+            "date_modified": "2022-11-21T00:00:00.000Z",
+            "author": {
+                "name": "Carl Hanson",
+                "url": "https://twitter.com/handle"
+            }
+        },
+        {
+            "id": "http://localhost:3000/projects/crypto-website-development-for-defi-x",
+            "url": "http://localhost:3000/projects/crypto-website-development-for-defi-x",
+            "title": "Crypto website development for DeFi X",
+            "summary": "The Time Traveller (for so it will be convenient to speak of him) was expounding a recondite matter to us.",
+            "date_modified": "2022-11-22T00:00:00.000Z",
+            "author": {
+                "name": "Carl Hanson",
+                "url": "https://twitter.com/handle"
+            }
+        }
+    ]
+}

@@ -4,7 +4,7 @@
         <title>Carl Hanson Personal Site</title>
         <link>http://localhost:3000</link>
         <description>A short description goes here.</description>
-        <lastBuildDate>Thu, 28 Dec 2023 08:50:28 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 18 Jan 2024 05:00:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en_US</language>
@@ -13,7 +13,7 @@
             <url>http://localhost:3000/favicon.ico</url>
             <link>http://localhost:3000</link>
         </image>
-        <copyright>All rights reserved 2023, Carl Hanson</copyright>
+        <copyright>All rights reserved 2024, Carl Hanson</copyright>
         <item>
             <title><![CDATA[Branding Agency Replaced Ten Tools With Just One]]></title>
             <link>http://localhost:3000/blog/marketing/branding-agency-replaced-ten-tools-with-just-one</link>

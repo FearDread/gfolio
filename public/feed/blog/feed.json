@@ -2,7 +2,7 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "Carl Hanson Personal Site",
     "home_page_url": "http://localhost:3000",
-    "feed_url": "D:\\_workspace\\__templates\\edgefolioreact-111\\edgefolioreact-111\\edgefolio\\public\\feed\\blog/feed.json",
+    "feed_url": "/home/feardread/_workspace/_git/gfolio/public/feed/blog/feed.json",
     "description": "A short description goes here.",
     "icon": "http://localhost:3000/favicon.ico",
     "author": {
