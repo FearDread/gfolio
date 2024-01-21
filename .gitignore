@@ -1,7 +1,9 @@
 
 node_modules/
+
 .git/
-package-lock.json
 .next/
+yarn.lock
+package-lock.json
 
 
