@@ -1,98 +1,98 @@
 {
   "../components/MDX.jsx -> @/components/MDXYoutube": {
-    "id": 8363,
+    "id": 5558,
     "files": [
-      "static/chunks/363.b6fdb07ae9179056.js"
+      "static/chunks/558.553661c8ff6de1d6.js"
     ]
   },
   "../layouts/Post.jsx -> @/components/SocialShare": {
-    "id": 1739,
+    "id": 8073,
     "files": [
-      "static/chunks/818.18c91b0d9e9c6272.js",
-      "static/chunks/739.0b782219357dd3cd.js"
+      "static/chunks/818.47f45f0674a9a87a.js",
+      "static/chunks/73.cdaab6de3b6b570f.js"
     ]
   },
   "../layouts/index.js -> @/layouts/About": {
-    "id": 5707,
+    "id": 2109,
     "files": [
-      "static/chunks/707.94ca84239528796a.js"
+      "static/chunks/109.d0cdc5804d882963.js"
     ]
   },
   "../layouts/index.js -> @/layouts/Blank": {
-    "id": 9402,
+    "id": 9302,
     "files": [
-      "static/chunks/402.aa8f0809b4757eef.js"
+      "static/chunks/302.0ec386088ff180c4.js"
     ]
   },
   "../layouts/index.js -> @/layouts/BlankCenter": {
-    "id": 6654,
+    "id": 1810,
     "files": [
-      "static/chunks/654.fcd14b0f2c2a56ac.js"
+      "static/chunks/810.38bc7e17259ddc54.js"
     ]
   },
   "../layouts/index.js -> @/layouts/Blog": {
-    "id": 5507,
+    "id": 6447,
     "files": [
-      "static/css/bfba0174ce3b5290.css",
-      "static/chunks/507.84c1fda42d67d783.js"
+      "static/css/0ff689baf72fc989.css",
+      "static/chunks/447.a3727ce167c0bba5.js"
     ]
   },
   "../layouts/index.js -> @/layouts/Contact": {
-    "id": 9827,
+    "id": 3475,
     "files": [
-      "static/chunks/827.2bb510c328ddf073.js"
+      "static/chunks/475.46c02de9f55736de.js"
     ]
   },
   "../layouts/index.js -> @/layouts/Fallback": {
-    "id": 4483,
+    "id": 4526,
     "files": [
-      "static/css/bfba0174ce3b5290.css",
-      "static/chunks/483.bb4d5636f549574e.js"
+      "static/css/0ff689baf72fc989.css",
+      "static/chunks/526.a06582b5afe1212d.js"
     ]
   },
   "../layouts/index.js -> @/layouts/Home": {
-    "id": 8817,
+    "id": 420,
     "files": [
-      "static/chunks/817.50be626a7e66d3df.js"
+      "static/chunks/420.cf9588ee6cc06af5.js"
     ]
   },
   "../layouts/index.js -> @/layouts/Home-2": {
-    "id": 3663,
+    "id": 3718,
     "files": [
-      "static/chunks/663.510d8cdaaa0f8494.js"
+      "static/chunks/718.26ab2bf0115773bc.js"
     ]
   },
   "../layouts/index.js -> @/layouts/Home-3": {
-    "id": 6019,
+    "id": 8478,
     "files": [
-      "static/chunks/19.4169a689bf9e9c2c.js"
+      "static/chunks/478.04e9082405460610.js"
     ]
   },
   "../layouts/index.js -> @/layouts/Home-4": {
-    "id": 7413,
+    "id": 5440,
     "files": [
-      "static/chunks/450.db2a97512b5072f6.js",
-      "static/chunks/413.b2cf9afdba14a68c.js"
+      "static/chunks/731.fe39d9110d5a1a28.js",
+      "static/chunks/440.cd55a02fd114746d.js"
     ]
   },
   "../layouts/index.js -> @/layouts/Post": {
-    "id": 1829,
+    "id": 1685,
     "files": [
-      "static/chunks/368.a206e86fd07bb7ee.js",
+      "static/chunks/762.4b8c67308b22a946.js",
       "static/css/e257a950304b50c2.css",
-      "static/chunks/211.d1e3e3086d835a1b.js"
+      "static/chunks/933.e5e00440a9ebe8dd.js"
     ]
   },
   "../layouts/index.js -> @/layouts/Projects": {
-    "id": 9461,
+    "id": 1469,
     "files": [
-      "static/chunks/461.0dac07d1dcc39e95.js"
+      "static/chunks/469.ce078ba6fe54356a.js"
     ]
   },
   "../layouts/index.js -> @/layouts/Services": {
-    "id": 4601,
+    "id": 4537,
     "files": [
-      "static/chunks/601.9a19006d0feb827b.js"
+      "static/chunks/537.e9b112760283edfd.js"
     ]
   }
 }

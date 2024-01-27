@@ -1,0 +1,1 @@
+"use strict";exports.id=526,exports.ids=[526],exports.modules={4526:(s,e,r)=>{r.r(e),r.d(e,{default:()=>__WEBPACK_DEFAULT_EXPORT__});var d=r(997);r(6689);var t=r(8717);let __WEBPACK_DEFAULT_EXPORT__=()=>d.jsx("div",{className:"mx-auto my-auto p-4 md:p-10 lg:p-20",children:d.jsx("div",{className:"prose dark:prose-invert",children:d.jsx(t.Z,{text:"Loading"})})})}};
