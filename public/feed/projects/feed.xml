@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>Carl Hanson Personal Site</title>
-        <link>http://localhost:3000</link>
-        <description>A short description goes here.</description>
-        <lastBuildDate>Fri, 08 Mar 2024 04:49:29 GMT</lastBuildDate>
+        <title>G-Haps Personal Site</title>
+        <link>http://localhost:3001</link>
+        <description>A Pioneer in the DevOps Field</description>
+        <lastBuildDate>Fri, 08 Mar 2024 09:46:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en_US</language>
         <image>
-            <title>Carl Hanson Personal Site</title>
-            <url>http://localhost:3000/favicon.ico</url>
-            <link>http://localhost:3000</link>
+            <title>G-Haps Personal Site</title>
+            <url>http://localhost:3001/favicon.ico</url>
+            <link>http://localhost:3001</link>
         </image>
-        <copyright>All rights reserved 2024, Carl Hanson</copyright>
+        <copyright>All rights reserved 2024, GFolio</copyright>
         <item>
             <title><![CDATA[Agency website design for devops company]]></title>
-            <link>http://localhost:3000/projects/agency-website-development-for-dev-x</link>
-            <guid>http://localhost:3000/projects/agency-website-development-for-dev-x</guid>
+            <link>http://localhost:3001/projects/agency-website-development-for-dev-x</link>
+            <guid>http://localhost:3001/projects/agency-website-development-for-dev-x</guid>
             <pubDate>Mon, 21 Nov 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Lorem ipsum dolor sit amet consectetur adipiscing elit mattis faucibus odio feugiat arcu scelerisque drogon sit amenot.]]></description>
-            <author>hello@example.com (Carl Hanson)</author>
+            <author>ghaptonstall@gmail.com (GFolio)</author>
         </item>
         <item>
             <title><![CDATA[Application design for finance startup]]></title>
-            <link>http://localhost:3000/projects/application-design-for-finance-startup</link>
-            <guid>http://localhost:3000/projects/application-design-for-finance-startup</guid>
+            <link>http://localhost:3001/projects/application-design-for-finance-startup</link>
+            <guid>http://localhost:3001/projects/application-design-for-finance-startup</guid>
             <pubDate>Mon, 21 Nov 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[The Time Traveller (for so it will be convenient to speak of him) was expounding a recondite matter to us.]]></description>
-            <author>hello@example.com (Carl Hanson)</author>
+            <author>ghaptonstall@gmail.com (GFolio)</author>
         </item>
         <item>
             <title><![CDATA[Brand refresh for saas cloud platform application]]></title>
-            <link>http://localhost:3000/projects/brand-refresh-for-technology-app</link>
-            <guid>http://localhost:3000/projects/brand-refresh-for-technology-app</guid>
+            <link>http://localhost:3001/projects/brand-refresh-for-technology-app</link>
+            <guid>http://localhost:3001/projects/brand-refresh-for-technology-app</guid>
             <pubDate>Mon, 21 Nov 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[The Time Traveller (for so it will be convenient to speak of him) was expounding a recondite matter to us.]]></description>
-            <author>hello@example.com (Carl Hanson)</author>
+            <author>ghaptonstall@gmail.com (GFolio)</author>
         </item>
         <item>
             <title><![CDATA[Crypto website development for DeFi X]]></title>
-            <link>http://localhost:3000/projects/crypto-website-development-for-defi-x</link>
-            <guid>http://localhost:3000/projects/crypto-website-development-for-defi-x</guid>
+            <link>http://localhost:3001/projects/crypto-website-development-for-defi-x</link>
+            <guid>http://localhost:3001/projects/crypto-website-development-for-defi-x</guid>
             <pubDate>Tue, 22 Nov 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[The Time Traveller (for so it will be convenient to speak of him) was expounding a recondite matter to us.]]></description>
-            <author>hello@example.com (Carl Hanson)</author>
+            <author>ghaptonstall@gmail.com (GFolio)</author>
         </item>
     </channel>
 </rss>
