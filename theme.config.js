@@ -17,27 +17,9 @@ import { SlUser, SlBriefcase, SlEnvolope, SlTrophy } from 'react-icons/sl'
 export const menu = [
   {
     name: 'Home',
-    slug: '/',
-    Icon: TfiHome,
-    number: 1,
-  },
-  {
-    name: 'Home (2)',
-    slug: '/index-2',
-    Icon: TfiHome,
-    number: 2,
-  },
-  {
-    name: 'Home (3)',
-    slug: '/index-3',
-    Icon: TfiHome,
-    number: 3,
-  },
-  {
-    name: 'Home (4)',
     slug: '/index-4',
     Icon: TfiHome,
-    number: 4,
+    number: 1,
   },
   {
     name: 'About',
@@ -50,11 +32,6 @@ export const menu = [
     Icon: SlBriefcase,
   },
   {
-    name: 'Articles',
-    slug: '/blog',
-    Icon: TfiPencilAlt,
-  },
-  {
     name: 'Projects',
     slug: '/projects',
     Icon: SlTrophy,
@@ -65,7 +42,31 @@ export const menu = [
     Icon: SlEnvolope,
   },
 ]
-
+/**
+{
+  name: 'Home',
+  slug: '/',
+  Icon: TfiHome,
+  number: 1,
+},
+{
+  name: 'Home (2)',
+  slug: '/index-2',
+  Icon: TfiHome,
+  number: 2,
+},
+{
+  name: 'Home (3)',
+  slug: '/index-3',
+  Icon: TfiHome,
+  number: 3,
+},
+  {
+    name: 'Articles',
+    slug: '/blog',
+    Icon: TfiPencilAlt,
+  },
+*/
 /**
  * Social Links under the Main Menu
  */
