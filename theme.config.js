@@ -131,16 +131,16 @@ export const mdxConfig = {
  */
 
 export const siteMetaData = {
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || process.env.VERCEL_URL || 'http://localhost:3000',
-  authorName: 'Carl Hanson',
-  siteName: 'Carl Hanson',
-  defaultTitle: 'Carl Hanson Personal Site',
-  titleTemplate: 'Carl Hanson | %s',
-  description: 'A short description goes here.',
-  email: 'hello@example.com',
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || process.env.VERCEL_URL || 'http://localhost:3001',
+  authorName: 'Garrett Haptonstall',
+  siteName: 'GFolio',
+  defaultTitle: 'G-Haps Personal Site',
+  titleTemplate: 'Garrett Haptonstall | %s',
+  description: 'A Pioneer in the DevOps Field',
+  email: 'ghaptonstall@gmail.com',
   locale: 'en_US',
   twitter: {
-    handle: '@handle',
+    handle: '@Ghap205',
     site: '@site',
     cardType: 'summary_large_image',
   },

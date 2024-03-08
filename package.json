@@ -1,15 +1,9 @@
 {
   "name": "next-theme-edgefolio",
   "version": "1.1.1",
-  "private": true,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ElegantStack/edgefolio.git"
-  },
   "engines": {
     "node": ">=14.0"
   },
-  "engineStrict": true,
   "scripts": {
     "dev": "next-remote-watch ./content/**/*.md",
     "export": "next export",
