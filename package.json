@@ -1,6 +1,7 @@
 {
-  "name": "next-theme-edgefolio",
-  "version": "1.1.1",
+  "name": "gfolio",
+  "version": "1.0.1",
+  "author": "Garrett Haptonstall",
   "engines": {
     "node": ">=14.0"
   },
