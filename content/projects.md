@@ -1,8 +1,8 @@
 ---
 layout: Projects
 seo:
-  title: Web Development Projects
-  description: Custom description for this page goes here
+  title: My Development Projects
+  description: Check out some of my lateset personal projects!
 ---
 
 ---github

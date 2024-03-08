@@ -6,14 +6,14 @@ seo:
 ---
 
 ---main
-slogan: Trusted By Fortune 500 Companies
+slogan: Face Everything and Rise
 ---
 
-# *Carl Hanson*
+# *Garrett Haptonstall*
 
 ## <Typewriter>Full-Stack Developer</Typewriter>
 
-##### <span>Based in Munich</span>
+##### <span>Based in Central TX</span>
 
 <Sep size={6} line className='max-w-sm mx-auto' />
 
@@ -24,23 +24,9 @@ perplexity at the foot of his epistle, shall to the press or to the
 sponge.
 
 
-
----articles
-collection:
-  path: /blog
-  recordsPerPage: 6
-  limit: 6
-  sortBy: date
-  filterBy:
-    featured:
-      $eq: true
----
-
 #### <span>Featured Articles</span>
 
 Featured handcrafted articles about my thoughts and experiments.
-
-
 
 ---achievements
 - number: 6+
@@ -53,15 +39,11 @@ Featured handcrafted articles about my thoughts and experiments.
   text: Happy Customers
 ---
 
-
-
 ---cta
 ---
 <Button href="/contact" size="sm">
   Download Resume
 </Button>
-
-
 
 ---companies
 title: Trusted By
