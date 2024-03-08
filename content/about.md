@@ -2,7 +2,7 @@
 layout: About
 seo:
   title: About Me
-  description: Custom description for this page goes here
+  description: Looking for a challanging position with oportunity for growth.
 ---
 
 

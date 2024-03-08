@@ -19,7 +19,6 @@ export const menu = [
     name: 'Home',
     slug: '/index-4',
     Icon: TfiHome,
-    number: 1,
   },
   {
     name: 'About',
