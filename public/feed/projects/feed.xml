@@ -4,7 +4,7 @@
         <title>G-Haps Personal Site</title>
         <link>http://localhost:3001</link>
         <description>A Pioneer in the DevOps Field</description>
-        <lastBuildDate>Mon, 25 Mar 2024 09:03:44 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 25 Mar 2024 19:43:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en_US</language>
@@ -47,10 +47,18 @@
             <author>ghaptonstall@gmail.com (GFolio)</author>
         </item>
         <item>
+            <title><![CDATA[E-Komix - Cards, Coins and Comics]]></title>
+            <link>http://localhost:3001/projects/ekomix-ecommerce-website-app</link>
+            <guid>http://localhost:3001/projects/ekomix-ecommerce-website-app</guid>
+            <pubDate>Mon, 22 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[E-Commerce Web app speacalizing in the sale of collectibles such as coins, trading cards (sports, pokemon, etc..) and of course comic books!]]></description>
+            <author>ghaptonstall@gmail.com (GFolio)</author>
+        </item>
+        <item>
             <title><![CDATA[Full e-commerce CRM platform based on Creative Tim's blk design.]]></title>
             <link>http://localhost:3001/projects/fear-admin-crm-ecommerce-platform</link>
             <guid>http://localhost:3001/projects/fear-admin-crm-ecommerce-platform</guid>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Mon, 22 Apr 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Full GUI for the FEAR api allowing vendors to manage there ecommerce websites.]]></description>
             <author>ghaptonstall@gmail.com (GFolio)</author>
         </item>

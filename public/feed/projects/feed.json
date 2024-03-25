@@ -53,6 +53,28 @@
                 "name": "GFolio",
                 "url": "https://twitter.com/Ghap205"
             }
+        },
+        {
+            "id": "http://localhost:3001/projects/ekomix-ecommerce-website-app",
+            "url": "http://localhost:3001/projects/ekomix-ecommerce-website-app",
+            "title": "E-Komix - Cards, Coins and Comics",
+            "summary": "E-Commerce Web app speacalizing in the sale of collectibles such as coins, trading cards (sports, pokemon, etc..) and of course comic books!",
+            "date_modified": "2024-04-22T00:00:00.000Z",
+            "author": {
+                "name": "GFolio",
+                "url": "https://twitter.com/Ghap205"
+            }
+        },
+        {
+            "id": "http://localhost:3001/projects/fear-admin-crm-ecommerce-platform",
+            "url": "http://localhost:3001/projects/fear-admin-crm-ecommerce-platform",
+            "title": "Full e-commerce CRM platform based on Creative Tim's blk design.",
+            "summary": "Full GUI for the FEAR api allowing vendors to manage there ecommerce websites.",
+            "date_modified": "2024-04-22T00:00:00.000Z",
+            "author": {
+                "name": "GFolio",
+                "url": "https://twitter.com/Ghap205"
+            }
         }
     ]
 }
