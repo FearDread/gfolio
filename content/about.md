@@ -8,7 +8,7 @@ seo:
 
 
 ---personal_info
-name: CARL HANSON
+name: Garrett Haptonstall
 images:
   - src: /about.jpg
     alt: my image

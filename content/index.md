@@ -1,23 +1,21 @@
 ---
-layout: Home
+layout: Home-4
 seo:
   title: Web Developer
   description: Custom description for this page goes here
 ---
 
 ---main
-images:
-  - src: /hero.jpg
-    alt: my photo
-  - src: /hero-mobile.jpg
-    alt: my photo
+slogan: Face Everything and Rise
 ---
 
-# <Typewriter>Carl Hanson</Typewriter>
+# *Garrett Haptonstall*
 
-# *Web Developer* <span>&</span> *Growth Consultant*
+## <Typewriter>Full-Stack Developer</Typewriter>
 
-<Sep size={12} />
+##### <span>Based in Central TX</span>
+
+<Sep size={6} line className='max-w-sm mx-auto' />
 
 Sometimes five Imprimaturs are seen together dialogue-wise in the
 piazza of one title-page, complimenting and ducking each to other with
@@ -26,25 +24,26 @@ perplexity at the foot of his epistle, shall to the press or to the
 sponge.
 
 
+#### <span>Featured Articles</span>
+
+Featured handcrafted articles about my thoughts and experiments.
 
 ---achievements
 - number: 6+
   text: Years of experience
 - number: 60+
   text: Projects Completed
-- number: 5
+- number: 12
   text: OpenSource Libraries
+- number: 50+
+  text: Happy Customers
 ---
-
-
 
 ---cta
 ---
-<Button href="/contact" size="lg">
+<Button href="/contact" size="sm">
   Download Resume
 </Button>
-
-
 
 ---companies
 title: Trusted By
