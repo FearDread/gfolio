@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: Full e-commerce CRM platform based on Creative Tim's blk design.
-description: Full GUI for the FEAR api allowing vendors to manage there ecommerce websites.
+title: F.E.A.R Api
+description: Full GUI for the FEAR api allowing vendors to manage there ecommerce websites, based on Creative Tim's blk design.
 date: '2024-04-22'
 tags:
   - ReactJS

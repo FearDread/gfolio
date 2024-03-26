@@ -4,7 +4,7 @@
         <title>G-Haps Personal Site</title>
         <link>http://localhost:3001</link>
         <description>A Pioneer in the DevOps Field</description>
-        <lastBuildDate>Mon, 25 Mar 2024 19:43:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Mar 2024 07:50:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en_US</language>
@@ -55,11 +55,11 @@
             <author>ghaptonstall@gmail.com (GFolio)</author>
         </item>
         <item>
-            <title><![CDATA[Full e-commerce CRM platform based on Creative Tim's blk design.]]></title>
+            <title><![CDATA[F.E.A.R Api]]></title>
             <link>http://localhost:3001/projects/fear-admin-crm-ecommerce-platform</link>
             <guid>http://localhost:3001/projects/fear-admin-crm-ecommerce-platform</guid>
             <pubDate>Mon, 22 Apr 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Full GUI for the FEAR api allowing vendors to manage there ecommerce websites.]]></description>
+            <description><![CDATA[Full GUI for the FEAR api allowing vendors to manage there ecommerce websites, based on Creative Tim's blk design.]]></description>
             <author>ghaptonstall@gmail.com (GFolio)</author>
         </item>
     </channel>

@@ -68,8 +68,8 @@
         {
             "id": "http://localhost:3001/projects/fear-admin-crm-ecommerce-platform",
             "url": "http://localhost:3001/projects/fear-admin-crm-ecommerce-platform",
-            "title": "Full e-commerce CRM platform based on Creative Tim's blk design.",
-            "summary": "Full GUI for the FEAR api allowing vendors to manage there ecommerce websites.",
+            "title": "F.E.A.R Api",
+            "summary": "Full GUI for the FEAR api allowing vendors to manage there ecommerce websites, based on Creative Tim's blk design.",
             "date_modified": "2024-04-22T00:00:00.000Z",
             "author": {
                 "name": "GFolio",

@@ -11,23 +11,21 @@ logo:
   src: /logo-ekomix.png
   alt: e-Komix
 images:
-  - src: /projects/project-fear-admin.png
+  - src: /projects/project-ekomix-home.png
     alt: Main Vendor Dashboard
     overlay:
-      src: /projects/project-fear-charts.png
+      src: /projects/project-ekomix-shop.png
       alt: Control Panel Mobile
-  - src: /projects/project-fear-admin.png
-    alt: Custom Charts
-  - src: /projects/project-fear-charts.png
+
 
 attributes:
   - label: Duration
-    value: 3 Weeks
+    value: 5 Weeks
   - label: Role
-    value: NodeJS API Server
+    value: E-commerce front end
   - label: Design Method 
-    value: RESTful API
+    value: Tim Creative blk Design
   - label: Technology
-    value: ExpressJS, NodeJS 
+    value: ReactJS, Redux, Sass
     ### Paragraphs
 ---
