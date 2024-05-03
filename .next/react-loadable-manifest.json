@@ -1,1 +1,92 @@
-{}
+{
+  "..\\components\\MDX.jsx -> @/components/MDXYoutube": {
+    "id": "..\\components\\MDX.jsx -> @/components/MDXYoutube",
+    "files": [
+      "static/chunks/components_MDXYoutube_jsx.js"
+    ]
+  },
+  "..\\layouts\\Post.jsx -> @/components/SocialShare": {
+    "id": "..\\layouts\\Post.jsx -> @/components/SocialShare",
+    "files": [
+      "static/chunks/components_SocialShare_jsx.js"
+    ]
+  },
+  "..\\layouts\\index.js -> @/layouts/About": {
+    "id": "..\\layouts\\index.js -> @/layouts/About",
+    "files": [
+      "static/chunks/layouts_About_jsx.js"
+    ]
+  },
+  "..\\layouts\\index.js -> @/layouts/Blank": {
+    "id": "..\\layouts\\index.js -> @/layouts/Blank",
+    "files": [
+      "static/chunks/layouts_Blank_jsx.js"
+    ]
+  },
+  "..\\layouts\\index.js -> @/layouts/BlankCenter": {
+    "id": "..\\layouts\\index.js -> @/layouts/BlankCenter",
+    "files": [
+      "static/chunks/layouts_BlankCenter_jsx.js"
+    ]
+  },
+  "..\\layouts\\index.js -> @/layouts/Blog": {
+    "id": "..\\layouts\\index.js -> @/layouts/Blog",
+    "files": [
+      "static/chunks/layouts_Blog_jsx.js"
+    ]
+  },
+  "..\\layouts\\index.js -> @/layouts/Contact": {
+    "id": "..\\layouts\\index.js -> @/layouts/Contact",
+    "files": [
+      "static/chunks/layouts_Contact_jsx.js"
+    ]
+  },
+  "..\\layouts\\index.js -> @/layouts/Fallback": {
+    "id": "..\\layouts\\index.js -> @/layouts/Fallback",
+    "files": [
+      "static/chunks/layouts_Fallback_jsx.js"
+    ]
+  },
+  "..\\layouts\\index.js -> @/layouts/Home": {
+    "id": "..\\layouts\\index.js -> @/layouts/Home",
+    "files": [
+      "static/chunks/layouts_Home_jsx.js"
+    ]
+  },
+  "..\\layouts\\index.js -> @/layouts/Home-2": {
+    "id": "..\\layouts\\index.js -> @/layouts/Home-2",
+    "files": [
+      "static/chunks/layouts_Home-2_jsx.js"
+    ]
+  },
+  "..\\layouts\\index.js -> @/layouts/Home-3": {
+    "id": "..\\layouts\\index.js -> @/layouts/Home-3",
+    "files": [
+      "static/chunks/layouts_Home-3_jsx.js"
+    ]
+  },
+  "..\\layouts\\index.js -> @/layouts/Home-4": {
+    "id": "..\\layouts\\index.js -> @/layouts/Home-4",
+    "files": [
+      "static/chunks/layouts_Home-4_jsx.js"
+    ]
+  },
+  "..\\layouts\\index.js -> @/layouts/Post": {
+    "id": "..\\layouts\\index.js -> @/layouts/Post",
+    "files": [
+      "static/chunks/layouts_Post_jsx.js"
+    ]
+  },
+  "..\\layouts\\index.js -> @/layouts/Projects": {
+    "id": "..\\layouts\\index.js -> @/layouts/Projects",
+    "files": [
+      "static/chunks/layouts_Projects_jsx.js"
+    ]
+  },
+  "..\\layouts\\index.js -> @/layouts/Services": {
+    "id": "..\\layouts\\index.js -> @/layouts/Services",
+    "files": [
+      "static/chunks/layouts_Services_jsx.js"
+    ]
+  }
+}
