@@ -10,7 +10,7 @@ seo:
 ---personal_info
 name: Garrett Haptonstall
 images:
-  - src: /about.jpg
+  - src: /mob_portrait.jpg
     alt: my image
 ---
 ##### <span>01.</span> About me
@@ -34,7 +34,7 @@ Ullamco cillum pariatur qui eu. Aliqua quis in adipisicing nulla do. Reprehender
 Let's super-charge your business today!
 
 <Button href="/contact">
-  Get a Free Price Quote
+  Get a Free Consultation and Price Quote Todya!
 </Button>
 
 
@@ -45,6 +45,8 @@ list:
   - Front-End Design
   - Back-End Development
   - Modern Frameworks
+  - Network Security
+  - Server setup and Administration
 ---
 
 
@@ -83,11 +85,11 @@ list:
 title: Front-End UI/UX Design
 list:
   - title: JavaScript
-    level: 4
+    level: 5
     icon:
       src: /icons/javascript.svg
   - title: React
-    level: 3
+    level: 4
     icon:
       src: /icons/react.svg
   - title: Redux
@@ -99,7 +101,7 @@ list:
     icon:
       src: /icons/graphql.svg
   - title: Node.js
-    level: 4
+    level: 5
     icon:
       src: /icons/nodedotjs.svg
   - title: Prisma
@@ -113,14 +115,15 @@ list:
 ---history[0]
 title: Employment
 list:
-  - name: MetaVerse Inc.
-    description: Web3 Developer
+  - name: Moshyn Inc.
+    description: Full Stack Developer
     date: 2020-Present
   - name: Vircil Intl Co..
     description: Back-End Developer and Designer
     date: 2018-2020
-  - name: Crowdcube Inc.
-    description: Technical Support
+  - name: Murder Inc.
+    info: Interactive MOB Muesium @ Tropicana
+    description: Systems Administrator
     date: 2018-2015
 ---
 

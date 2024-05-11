@@ -4,7 +4,11 @@
         <title>G-Haps Personal Site</title>
         <link>http://localhost:3001</link>
         <description>A Pioneer in the DevOps Field</description>
+<<<<<<< HEAD
         <lastBuildDate>Wed, 24 Apr 2024 17:50:49 GMT</lastBuildDate>
+=======
+        <lastBuildDate>Fri, 03 May 2024 19:41:44 GMT</lastBuildDate>
+>>>>>>> 73f2aab61bee2bb2c76e9634f34d8d0d155cb85d
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en_US</language>
