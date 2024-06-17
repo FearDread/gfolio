@@ -15,8 +15,8 @@ images:
     alt: my photo
 ---
 
+# <Typewriter>Garrett</Typewriter>
 # <Typewriter>Haptonstall</Typewriter>
-# <Typewriter>Sys Admin</Typewriter>
 
 # *Full Stack Developer* <span>&</span> *Systems Administrator*
 
@@ -66,3 +66,6 @@ list:
     icon:
       src: /icons/logo-4.svg
 ---
+<Newsletter className="bg-omega-800 p-10" />
+
+<TipJar />

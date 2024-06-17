@@ -13,17 +13,16 @@ images:
     alt: my photo
 ---
 
-# <Typewriter>Garrett Haptonstall</Typewriter>
+# <Typewriter>#FearDread</Typewriter>
 
-# *Web Developer* <span>&</span> *Gamer & Forever Nerd!S*
+# *Web* <span>#</span>  E-Sports <span># Android </span>
 
+<Button href="/contact" size="lg">
+  Download Resume
+</Button>
 <Sep size={12} />
 
-Sometimes five Imprimaturs are seen together dialogue-wise in the
-piazza of one title-page, complimenting and ducking each to other with
-their shaven reverences, whether the author, who stands by in
-perplexity at the foot of his epistle, shall to the press or to the
-sponge.
+Thank you for taking the time to consider my qualifications as a Developer, Systems Admin, Database Admin, Software & Network Engineer and overall exceptional IT Specialist for this position.
 
 
 
@@ -40,13 +39,12 @@ sponge.
 
 ---cta
 ---
-<Button href="/contact" size="lg">
-  Download Resume
-</Button>
 
 
 
+<TipJar />
 ---companies
+
 title: Trusted By
 list:
   - name: Company 1

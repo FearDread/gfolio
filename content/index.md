@@ -17,12 +17,7 @@ slogan: Face Everything and Rise
 
 <Sep size={6} line className='max-w-sm mx-auto' />
 
-Sometimes five Imprimaturs are seen together dialogue-wise in the
-piazza of one title-page, complimenting and ducking each to other with
-their shaven reverences, whether the author, who stands by in
-perplexity at the foot of his epistle, shall to the press or to the
-sponge.
-
+I've developed relational database driven applications and web sites using a LAMP stack, I have also developed DB driven apps using a Node JS and Nginx web stack and have configured / administrated both. Programming languages that I have developed with include JavaScript, jQuery, Perl, SQL, Java, PHP, CSS, XML, CGI, HTML, AJAX and XSL. Experience developing utility and network applications with Java for Android smart-phones and tablets. I have also configured and maintained services such as LDAP, FTP, SSH, NTP, DNS, Named, SendMail, Postfix and Tomcat. I have knowledge of most networking protocols, ticketing and POS systems (MICROS), configuring routers with all security types, static \ dynamic IP's, domains and virtual private servers, Firewalls such as IP-Tables / Chains, and the Cisco IOS. 
 
 #### <span>Featured Articles</span>
 

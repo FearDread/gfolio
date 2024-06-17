@@ -5,6 +5,8 @@ import Image from '@/components/Image'
 import Sep from '@/components/Sep'
 import Reveal from '@/components/Reveal'
 import Companies from '@/components/Companies'
+import Loader from '@/components/Loader'
+
 
 const HeroPhoto = ({ main }) => (
   <>
@@ -63,7 +65,7 @@ const Achievements = ({ achievements }) => (
 )
 
 const Layout = ({ main = {}, cta = {}, achievements = [], companies }) => (
-  <div className="mx-auto my-auto py-4 md:p-10 lg:p-20">
+  <div className="mx-auto my-auto py-4 md:p-10 lg:p-20">   
     <div className="absolute right-0 top-0 box-content hidden h-full w-1/4 bg-gradient-to-br from-alpha-100 via-alpha to-beta pl-5 md:block" />
     <div className="items-end text-center md:flex md:text-left">
       <div className="relative shrink-0 basis-1/2 text-center md:order-2 md:-ml-20">

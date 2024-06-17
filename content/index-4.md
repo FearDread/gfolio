@@ -17,11 +17,7 @@ slogan: Face Everything and Rise
 
 <Sep size={6} line className='max-w-sm mx-auto' />
 
-Sometimes five Imprimaturs are seen together dialogue-wise in the
-piazza of one title-page, complimenting and ducking each to other with
-their shaven reverences, whether the author, who stands by in
-perplexity at the foot of his epistle, shall to the press or to the
-sponge.
+Gfolio will show you my resume with details on the mentioned skill sets and work history. I really look forward to receiving your input, and possibly scheduling a meeting to discuss this position further. Please feel free to contact me directly by phone or email, and again thank you for your time and consideration.
 
 ---companies
 title: Trusted By
@@ -51,6 +47,8 @@ collection:
       $eq: true
 ---
 
+<Newsletter className="bg-omega-800 p-10" />
+
 #### <span>Featured Articles</span>
 
 Featured handcrafted articles about my thoughts and experiments.
@@ -68,15 +66,13 @@ Featured handcrafted articles about my thoughts and experiments.
 
 ---cta
 ---
-<TipJar />
-```
-This will render the TipJar component:
 
-<TipJar />
 
 <Button href="/contact" size="sm">
   Download Resume
 </Button>
 
 
+
+<TipJar />
 
