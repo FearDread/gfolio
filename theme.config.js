@@ -21,7 +21,7 @@ export const menu = [
     Icon: TfiHome,
   },
   {
-    name: 'More..',
+    name: 'Details',
     slug: '/index-5',
     Icon: TfiPencilAlt,
   },
@@ -111,9 +111,9 @@ export const config = {
   },
   contactForm: {
     inputs: require('./content/contact-form.json'),
-    recipient: 'RECIPIENT@EXAMPLE.com',
+    recipient: 'ghaptonstall@gmail.com.com',
     sender: 'SENDER@EXAMPLE.com',
-    subject: 'EMAIL NOTIFICATION SUBJECT',
+    subject: 'EMAIL NOTIFICATION',
   },
 }
 

@@ -15,7 +15,7 @@ images:
 
 # <Typewriter>Garrett Haptonstall</Typewriter>
 
-# *Web Developer* <span>&</span> *Growth Consultant*
+# *Web Developer* <span>&</span> *Gamer & Forever Nerd!S*
 
 <Sep size={12} />
 

@@ -7,7 +7,7 @@ seo:
 
 ---github
 repositories:
-  - leerob/leerob.io
+  - FearDread/fear-admin
   - jxnblk/mdx-deck
   - vercel/og-image
 ---

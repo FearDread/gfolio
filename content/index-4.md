@@ -68,8 +68,15 @@ Featured handcrafted articles about my thoughts and experiments.
 
 ---cta
 ---
+<TipJar />
+```
+This will render the TipJar component:
+
+<TipJar />
+
 <Button href="/contact" size="sm">
   Download Resume
 </Button>
+
 
 
