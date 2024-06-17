@@ -23,6 +23,33 @@ their shaven reverences, whether the author, who stands by in
 perplexity at the foot of his epistle, shall to the press or to the
 sponge.
 
+---companies
+title: Trusted By
+list:
+  - name: Company 1
+    icon:
+      src: /icons/logo-1.svg
+  - name: Company 2
+    icon:
+      src: /icons/logo-3.svg
+  - name: Company 3
+    icon:
+      src: /icons/logo-3.svg
+  - name: Company 4
+    icon:
+      src: /icons/logo-4.svg
+---
+
+---articles
+collection:
+  path: /blog
+  recordsPerPage: 6
+  limit: 6
+  sortBy: date
+  filterBy:
+    featured:
+      $eq: true
+---
 
 #### <span>Featured Articles</span>
 
@@ -45,19 +72,4 @@ Featured handcrafted articles about my thoughts and experiments.
   Download Resume
 </Button>
 
----companies
-title: Trusted By
-list:
-  - name: Company 1
-    icon:
-      src: /icons/logo-1.svg
-  - name: Company 2
-    icon:
-      src: /icons/logo-3.svg
-  - name: Company 3
-    icon:
-      src: /icons/logo-3.svg
-  - name: Company 4
-    icon:
-      src: /icons/logo-4.svg
----
+
