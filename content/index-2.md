@@ -15,26 +15,21 @@ images:
     alt: my photo
 ---
 
-# <Typewriter>G. Haptonstall</Typewriter>
+# <Typewriter>Haptonstall</Typewriter>
 # <Typewriter>Sys Admin</Typewriter>
 
-# *Web Developer* <span>&</span> *Dev Ops Consultant*
+# *Full Stack Developer* <span>&</span> *Systems Administrator*
 
-Sometimes five Imprimaturs are seen together dialogue-wise in the
-piazza of one title-page, complimenting and ducking each to other with
-their shaven reverences, whether the author, who stands by in
-perplexity at the foot of his epistle.
+I have worked with many open source and private enterprise software's. My experience goes from basic technical support, systems administration, programming and development, on to network engineering and IT / project management. I am a "hands on", very diverse, all around IT professional and am always looking to expand my knowledge on doing what I love to do! 
 
 ```js {2-4} showLineNumbers
 const services = [
-  'UI/UX Design'
-  'Web Development'
+  'Network Security'
+  'Full Stack'
   'Mobile App Development'
 ]
 if (have_a_project) navigate('/contact')
 ```
-
-
 
 ---achievements
 - number: 6+
@@ -47,8 +42,6 @@ if (have_a_project) navigate('/contact')
   text: Clients World Wide
 ---
 
-
-
 ---cta
 ---
 <Button href="/contact" size="sm">
@@ -56,8 +49,6 @@ if (have_a_project) navigate('/contact')
 </Button>
 
 [Get in Touch](/contact)
-
-
 
 ---companies
 title:

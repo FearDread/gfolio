@@ -21,6 +21,11 @@ export const menu = [
     Icon: TfiHome,
   },
   {
+    name: 'More..',
+    slug: '/index-5',
+    Icon: TfiPencilAlt,
+  },
+  {
     name: 'About',
     slug: '/about',
     Icon: SlUser,
