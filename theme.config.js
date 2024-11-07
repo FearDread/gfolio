@@ -141,7 +141,7 @@ export const siteMetaData = {
   siteName: 'GFolio',
   defaultTitle: 'G-Haps Personal Site',
   titleTemplate: 'Garrett Haptonstall | %s',
-  description: 'A Pioneer in the DevOps Field',
+  description: 'The jack of all things Information Technology',
   email: 'ghaptonstall@gmail.com',
   locale: 'en_US',
   twitter: {
