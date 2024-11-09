@@ -18,14 +18,13 @@ seo:
 
 ###### Solving problems
 
-I design products that are more than pretty. I make them shippable and usable.
-Et tempor non mollit dolor et do aute voluptate ea ullamco.
+I design products that are more than pretty. I make them shippable and usable within alotted times and deadlines.  I am dedicated to seeing any project or idea all the way through to its final stage, and make sure to set my standards above the bar.
 
 ###### What you can expect
 
-- Design Strategy
-- Web and Mobile App Design
-- Front-end Development
+- Design / Arch Strategy
+- Web and Mobile Apps
+- Full Stack Development
 
 ###### Applications I'm fluent in
 
@@ -36,24 +35,23 @@ Et tempor non mollit dolor et do aute voluptate ea ullamco.
 <Sep size="12" />
 
 <Button href="/contact" variant="white" size="sm">
-  Get Free Price Quote
+  Get In Touch Now!
 </Button>
 
 
 
 ---services[0]
-title: Web and Mobile App Design
+title: Full Stack Development
 icon:
   src: /icons/mobile-app.svg
 ---
 
 <small>
-  Defining the problem, identifying the scope and finally, organizing. Et tempor non mollit dolor et
-  do aute voluptate ea ullamco culpa pariatur.
+  Every aspect of the development process is of no stranger to me, and I easily keep up with the latest frameworks and technology on the web.  
 
-    - <strong>Design Strategy</strong>
-    - <strong>Web and Mobile App Design</strong>
-    - <strong>Front-end Development</strong>
+    - <strong>Database Design and Management</strong>
+    - <strong>Hosting and Systems Setup</strong>
+    - <strong>Front-end & Back-end Development</strong>
 
 </small>
 
@@ -66,8 +64,7 @@ icon:
 ---
 
 <small>
-  Defining the problem, identifying the scope and finally, organizing. Et tempor non mollit dolor et
-  do aute voluptate ea ullamco culpa pariatur.
+  Defining the problem, identifying the scope and finally, organizing and bringing your ideas to life.
 
     - <strong>Design Strategy</strong>
     - <strong>Web and Mobile App Design </strong>
@@ -78,24 +75,23 @@ icon:
 
 
 ---services[2]
-title: UI/UX Design & Optimization
+title: Network Engineering & Security
 icon:
   src: /icons/dashboard.svg
 ---
 
 <small>
-  Defining the problem, identifying the scope and finally, organizing. Et tempor non mollit dolor et
-  do aute voluptate ea ullamco culpa pariatur.
+  I stay up to date with the latest security standards when it comes to designing and administrating virtually and sized network infastructure.
 
-    - <strong>Design Strategy</strong>
-    - <strong>Web and Mobile App Design</strong>
-    - <strong>Front-end Development</strong>
+    - <strong>Network Design Strategy.</strong>
+    - <strong>Cisco Routing and Switches.</strong>
+    - <strong>Latest DDOS Security Standards.</strong>
 </small>
 
 
 
 ---services[3]
-title: Application Audit & Debugging
+title: Dev-Ops & Consulting
 icon:
   src: /icons/audit.svg
 ---
@@ -104,7 +100,7 @@ icon:
   Defining the problem, identifying the scope and finally, organizing. Et tempor non mollit dolor et
   do aute voluptate ea ullamco culpa pariatur.
 
-  - <strong>Design Strategy </strong>
-  - <strong>Web and Mobile App Design </strong>
-  - <strong>Front-end Development</strong>
+  - <strong>Project Managament </strong>
+  - <strong>Architectural planning</strong>
+  - <strong>Team Oriented Dev-Ops</strong>
 </small>
