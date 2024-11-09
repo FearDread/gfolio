@@ -5,8 +5,6 @@ seo:
   description: You will see why I am the best choice for YOU!
 ---
 
-
-
 ---personal_info
 name: Garrett Haptonstall
 images:
@@ -120,7 +118,7 @@ list:
   - name: InMoshyn Inc.
     description: Full Stack Developer & Network Engineer
     date: 2020-Present
-  - name: Vircil Intl Co..
+  - name: Business Development Institute.
     description: Back-End Developer and Systems Engineer
     date: 2018-2020
   - name: Murder Inc. (Las Vegas Mob Eperience)

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import classNames from 'clsx'
 import ContentRenderer from '@/components/ContentRenderer'
 import Image from '@/components/Image'
@@ -6,7 +6,9 @@ import Sep from '@/components/Sep'
 import BlogCardHorizontalMini from '@/components/BlogCardHorizontalMini'
 import Reveal from '@/components/Reveal'
 import Companies from '@/components/Companies'
-import { FiThumbsUp } from 'react-icons/fi'
+import { FiThumbsUp } from 'react-icons/fi';
+
+
 
 const HeroPhoto = ({ main }) =>
   main.images?.[1] && (

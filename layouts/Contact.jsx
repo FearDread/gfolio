@@ -32,8 +32,8 @@ const SuccessMessage = () => (
     <div className="absolute inset-0 z-20 flex h-full w-full items-center justify-center bg-omega-800/95">
       <div className="max-w-md text-center">
         <SlCheck className="mx-auto text-5xl text-alpha" />
-        <h5>Thank you for contacting me.</h5>
-        <p>I will get back to you as soon as possible.</p>
+        <h5> Thank you for contacting me. </h5>
+        <p>I will get back to you as soon as possible. </p>
       </div>
     </div>
   </Reveal>
@@ -84,7 +84,7 @@ const Contact01 = ({ main = {} }) => {
           animation="fade-in slide-in-right"
           className="prose prose-invert basis-1/3 lg:mr-14"
         >
-          <ContentRenderer source={main} />
+        <ContentRenderer source={main} />
         </Reveal>
         <Reveal
           animation="fade-in zoom-in"
