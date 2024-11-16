@@ -65,7 +65,7 @@ const ProjectCardHorizontal = ({
           <Icon {...logo} className="h-full w-36 fill-current text-omega-400" />
         </div>
       ) : (
-        <h6 className="text-omega-400">{logo.alt}</h6>
+        <h6 className="text-omega-400">{logo ? logo.alt : "alt"}</h6>
       )}
       <Link href={slug.join('/')} aria-label={title}>
         <h4 className="mt-6 transition-colors group-hover:text-accent dark:group-hover:text-alpha">

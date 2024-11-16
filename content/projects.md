@@ -6,10 +6,10 @@ seo:
 ---
 
 ---github
-repos:
+collection:
   - FearDread/fear-admin
-  - jxnblk/mdx-deck
-  - vercel/og-image
+  - FearDread/fear-medusa
+  - FearDread/fear-portal
 ---
 
 <PageTitle>

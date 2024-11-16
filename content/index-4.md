@@ -14,10 +14,30 @@ slogan: Face Everything and Rise
 ## <Typewriter>Full-Stack Developer</Typewriter>
 
 ##### <span>Based in Central TX</span>
-
+ 
 <Sep size={6} line className='max-w-sm mx-auto' />
 
 Gfolio will show you my resume with details on the mentioned skill sets and work history. I really look forward to receiving your input, and possibly scheduling a meeting to discuss this position further. Please feel free to contact me directly by phone or email, and again thank you for your time and consideration.
+
+  ```js  {4-7} showLineNumbers
+  import FEAR from './FEAR.js';
+
+  (async () => {
+
+    async function start() {
+    
+        FEAR.db.run( FEAR.env, () => {
+            FEAR.app.listen( port, (err) => {
+                if ( err ) return;
+                FEAR.log.info(`FEAR API Initialized :: Port ${port}`);
+            });
+        });
+    }
+
+    await start();
+
+  })( FEAR );
+  ```
 
 ---companies
 title: Trusted By
@@ -67,12 +87,5 @@ Featured handcrafted articles about my thoughts and experiments.
 ---cta
 ---
 
-
-<Button href="/contact" size="sm">
-  Download Resume
-</Button>
-
-
-
+<a href="Ghaptonstall_Resume.pdf" size="sm" download="cv" className="button"> Download Resume </a>
 <TipJar />
-

@@ -12,7 +12,7 @@ const Layout = ({ projects, github }) => {
         <ProfileDetails />
         <ContentRenderer source={github} />
         <div className="mt-4 grid grid-cols-fluid gap-4 [--tw-fluid-col-min:15rem] md:mt-12 md:gap-6">
-          {github?.repos?.records?.map((item, i) => (
+          {github?.collection?.records?.map((item, i) => (
             <Reveal animation="fade-in slide-in-top" delay={i * 100} key={item.name}>
               <RepositoryCard {...item} />
             </Reveal>

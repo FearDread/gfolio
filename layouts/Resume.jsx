@@ -1,23 +1,18 @@
+'use client';
 import { useState } from 'react';
-import { Document, Page } from 'react-pdf';
-import samplePDF from '@/public/Ghaptonstall_Resume.pdf';
+import { Document, Page, pdfjs } from 'react-pdf';
 
 const Resume = () => {
-  const [numPages, setNumPages] = useState<number>();
-  const [pageNumber, setPageNumber] = useState<number>(1);
+  const [numPages, setNumPages] = useState(1);
+  const [pageNumber, setPageNumber] = useState(1);
 
-  function onDocumentLoadSuccess({ numPages }: { numPages: number }): void {
+  const onDocumentLoadSuccess = ({numPages}) => {
     setNumPages(numPages);
   }
 
   return (
     <div>
-      <Document file={samplePDF} onLoadSuccess={onDocumentLoadSuccess}>
-        <Page pageNumber={pageNumber} />
-      </Document>
-      <p>
-        Page {pageNumber} of {numPages}
-      </p>
+      <a href="Ghaptonstall_Resume.pdf" download="cv" onLoadSuccess={onDocumentLoadSuccess}></a>
     </div>
   );
 }

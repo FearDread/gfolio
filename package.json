@@ -30,6 +30,7 @@
     "next-seo": "^5.15.0",
     "next-share": "^0.19.0",
     "next-sitemap": "^3.1.49",
+    "pdfjs-dist": "^4.8.69",
     "prism-themes": "^1.9.0",
     "pure-react-carousel": "^1.30.1",
     "react": "^18.2.0",
