@@ -17,7 +17,7 @@ images:
 
 # *Web* <span>#</span>  E-Sports <span># Android </span>
 
-<Button href="/contact" size="lg">
+<Button href="Ghaptonstall_Resume.pdf" size="lg" download="ghap_resume">
   Download Resume
 </Button>
 <Sep size={12} />

@@ -87,5 +87,7 @@ Featured handcrafted articles about my thoughts and experiments.
 ---cta
 ---
 
-<button><a href="Ghaptonstall_Resume.pdf" size="sm" download="ghaptonstall_resume"> Download Resume </a></button>
+<Button href="Ghaptonstall_Resume.pdf" size="sm" download="ghap_resume">
+  Download Resume
+</Button>
 <TipJar />
