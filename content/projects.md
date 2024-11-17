@@ -6,10 +6,14 @@ seo:
 ---
 
 ---github
-collection:
-  path: /github
-  sortBy: date
-  shallow: true
+- number: 10+
+  text: Years of experience
+- number: 30+
+  text: Personal Repositories
+- number: 5
+  text: OpenSource Libraries
+- number: 2+
+  text: Published Packages
 ---
 
 <PageTitle>
