@@ -1,7 +1,7 @@
 import { HStack, Text } from "@chakra-ui/react";
 import { BiLink, BiMap } from "react-icons/bi";
 
-const GithubUserLinks({ webUrl, location }) {
+const GithubUserLinks = ({ webUrl, location }) => {
   return (
     <HStack spacing={8}>
       <a href={webUrl} target="_blank" rel="noopener noreferrer">

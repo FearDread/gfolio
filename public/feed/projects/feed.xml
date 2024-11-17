@@ -4,7 +4,7 @@
         <title>G-Haps Personal Site</title>
         <link>http://localhost:3001</link>
         <description>The jack of all things Information Technology</description>
-        <lastBuildDate>Sat, 16 Nov 2024 04:12:40 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 17 Nov 2024 07:40:16 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en_US</language>
@@ -28,6 +28,14 @@
             <guid>http://localhost:3001/projects/fear-admin/fear-admin-project-details</guid>
             <pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Official Content management system for managing online stores.]]></description>
+            <author>ghaptonstall@gmail.com (GFolio)</author>
+        </item>
+        <item>
+            <title><![CDATA[In-Moshyn]]></title>
+            <link>http://localhost:3001/projects/inmoshyn/in-moshyn-project-details</link>
+            <guid>http://localhost:3001/projects/inmoshyn/in-moshyn-project-details</guid>
+            <pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Lets put your idea In - Moshyn.]]></description>
             <author>ghaptonstall@gmail.com (GFolio)</author>
         </item>
     </channel>

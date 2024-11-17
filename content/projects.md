@@ -7,9 +7,9 @@ seo:
 
 ---github
 collection:
-  - FearDread/fear-admin
-  - FearDread/fear-medusa
-  - FearDread/fear-portal
+  path: /github
+  sortBy: date
+  shallow: true
 ---
 
 <PageTitle>

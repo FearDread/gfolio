@@ -1,33 +1,34 @@
 
 import React, { createContext, useContext, useEffect, useState } from "react";
 
-const GitHubUserContext = createContext();
+const GithubUserContext = createContext();
 
 
 
-export const useGitHubUserContext = () => useContext(GitHubUserContext);
+export const useGithubUserContext = () => useContext(GithubUserContext);
 
 
-const GitHubUserContextProvider = ({ children }) => {
-  const [GitHubUserData, setGitHubUserData] = useState(false);
+const GithubUserContextProvider = ({ children }) => {
+  const [GithubUserData, setGithubUserData] = useState(false);
 
-  async function fetchGitHubUserData() {
-    const response = await fetch(`https://api.github.com/users/nefejames`);
+  async function fetchGithubUserData() {
+    const response = await fetch(`https://api.github.com/users/FearDread`);
     const data = await response.json();
-    setGitHubUserData(data);
+    console.log('github data = ', data)
+    setGithubUserData(data);
   }
 
   useEffect(() => {
-    fetchGitHubUserData();
+    fetchGithubUserData();
   }, []);
 
-  const data = GitHubUserData;
+  const data = GithubUserData;
 
   return (
-    <GitHubUserContext.Provider value={data}>
+    <GithubUserContext.Provider value={data}>
       {children}
-    </GitHubUserContext.Provider>
+    </GithubUserContext.Provider>
   );
 }
 
-export default GitHubUserContextProvider;
+export default GithubUserContextProvider;

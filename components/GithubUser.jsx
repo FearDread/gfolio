@@ -1,23 +1,23 @@
 
 import { Link } from "react-router-dom";
-import GitHubUserAnalytics from "../components/GitHubUserAnalytics";
-import GitHubUserLinks from "../components/GitHubUserLinks";
+import GithubUserAnalytics from "./GitHubUserAnalytics";
+import GithubUserLinks from "./GitHubUserLinks";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import { useGitHubUserContext } from "../contexts/GithubUserContext";
-
+import { useGithubUserContext } from "../contexts/GithubUserContext";
+import { chakra } from "@chakra-ui/react";
+import { Loader } from "./Loader/Loader";
+import { NextSeo } from 'next-seo';
 import "react-lazy-load-image-component/src/effects/blur.css";
-import PlaceholderImage from "../images/placeholder.jpg";
-import SEO from "../components/SEO";
 
-const GitHubUser = () => {
-  const data = useGitHubUserContext();
+const GithubUser = () => {
+  const data = useGithubUserContext();
   const ChakraLink = chakra(Link);
   const ChakraLazyLoadImage = chakra(LazyLoadImage);
-  if (!data) return <Spinner size="xl" />;
+  if (!data) return <Loader size="xl" />;
 
   return (
     <>
-      <SEO
+      <NextSeo
         title="nefejames - GitHub profile"
         description="Front end web developer and technical writer - always learning - nefejames"
       />
@@ -26,7 +26,7 @@ const GitHubUser = () => {
           <Box width={["full", "300px"]}>
             <ChakraLazyLoadImage
               src={data.avatar_url}
-              placeholderSrc={PlaceholderImage}
+              placeholderSrc={"author-profile-picture.jpg"}
             />
             <Text as="span" mt={3} display="inline-block" color="teal.900">
               @{data.login}
@@ -41,12 +41,12 @@ const GitHubUser = () => {
               </VStack>
               <Text as="p">{data.bio}</Text>
             </VStack>
-            <GitHubUserAnalytics
+            <GithubUserAnalytics
               noOfRepos={data.public_repos}
               noOfFollowers={data.followers}
               noOfFollowing={data.following}
             />
-            <GitHubUserLinks webUrl={data.blog} location={data.location} />
+            
             <ChakraLink to="/repos" w="full">
               <Button>View my Repos</Button>
             </ChakraLink>

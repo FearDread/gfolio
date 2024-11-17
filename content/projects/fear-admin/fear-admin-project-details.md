@@ -6,10 +6,13 @@ date: '2024-09-05'
 tags:
   - e-commerece
 images:
-  - src: /projects/project-1.jpg
+  - src: /projects/fear-admin-project-dashboard.png
     alt: image alt attribute
-  - src: /projects/project-1-mobile.jpg
+  - src: /projects/fear-admin-project-login.png
     alt: image alt attribute
+  - src: /projects/fear-admin-project-profile.png
+    alt: image alt
+  
 ---
 
 This is what drives the backend content management system all powered by my completly custom and self writtin FEAR API.

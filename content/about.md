@@ -30,11 +30,10 @@ Although I am very adapative and love to learn new technologies, I would love to
 ---cta
 ---
 ## Ready to discuss your project or position?
-4
-Let's super-charge your business today! I cant wait to be apart of a team and put ideas InMoshyn !
+Let's super-charge your business today! I cant wait to be apart of a team and put ideas In-Moshyn !
 
 <Button href="/contact">
-  Get in touch right away for free Consultation or Interview!
+  Contact for free Consultation or Interview!
 </Button>
 
 

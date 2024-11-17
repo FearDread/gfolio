@@ -1,6 +1,6 @@
 import { Flex, Text, VStack } from "@chakra-ui/react";
 
-export default function GitHubUserAnalytics({
+export default function GithubUserAnalytics({
   noOfRepos,
   noOfFollowers,
   noOfFollowing,
