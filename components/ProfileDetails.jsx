@@ -4,9 +4,6 @@ import useGithubStats from 'react-github-user-stats';
 import GitHubCalendar from 'react-github-calendar';
 import Reveal from '@/components/Reveal';
 import LoadingDots from "@/components/LoadingDots";
-import Image from '@/components/Image'
-import Sep from '@/components/Sep'
-import ContentRenderer from './ContentRenderer';
 
 const ProfileDetails = ({projects}) => {
   const gituser = "FearDread";
@@ -27,7 +24,7 @@ const ProfileDetails = ({projects}) => {
   console.log('github data = ', userData);
   return (
     <>
-          <h5> My Open-Source Projects </h5>
+      <h5> My Open-Source Projects </h5>
       <div className="relative mx-auto w-full text-center">
         <Reveal
         delay={1000}

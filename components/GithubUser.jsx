@@ -1,7 +1,6 @@
 
 import { Link } from "react-router-dom";
-import GithubUserAnalytics from "./GitHubUserAnalytics";
-import GithubUserLinks from "./GitHubUserLinks";
+import GithubUserAnalytics from "./GithubUserAnalytics";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { useGithubUserContext } from "../contexts/GithubUserContext";
 import { chakra } from "@chakra-ui/react";
