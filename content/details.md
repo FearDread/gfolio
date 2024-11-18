@@ -13,23 +13,31 @@ images:
     alt: my photo
 ---
 
-# <Typewriter>#FearDread</Typewriter>
+## <Typewriter>#FearDread</Typewriter>
 
-# *Web* <span>#</span>  E-Sports <span># Android </span>
+# *Web* Wizard
+<Sep size={6} />
+
+I have worked with many open source and private enterprise software's. My experience goes from multi-tier technical support, systems administration, programming and development, on to network engineering and IT / DevOps management.  
+
+```js {2-4} showLineNumbers
+const services = [
+  'Network Security'
+  'Full Stack'
+  'Mobile App Development'
+]
+if (have_a_project) navigate('/contact')
+
+```
 
 <Button href="Ghaptonstall_Resume.pdf" size="lg" download="ghap_resume">
   Download Resume
 </Button>
-<Sep size={12} />
-
-Thank you for taking the time to consider my qualifications as a Developer, Systems Admin, Database Admin, Software & Network Engineer and overall exceptional IT Specialist for this position.
-
-
 
 ---achievements
-- number: 6+
+- number: 10+
   text: Years of experience
-- number: 60+
+- number: 30+
   text: Projects Completed
 - number: 5
   text: OpenSource Libraries

@@ -74,11 +74,11 @@ collection:
 Featured handcrafted articles about my thoughts and experiments.
 
 ---achievements
-- number: 6+
+- number: 10+
   text: Years of experience
-- number: 60+
-  text: Projects Completed
-- number: 12
+- number: 30+
+  text: Personal Repositories
+- number: 5
   text: OpenSource Libraries
 - number: 50+
   text: Happy Customers
