@@ -5,7 +5,7 @@
     "fields": [
       {
         "type": "text",
-        "name": "first-name",
+        "name": "fullname",
         "placeholder": "First name",
         "autoComplete": "given-name",
         "required": true
@@ -134,7 +134,7 @@
     "fields": [
       {
         "type": "textarea",
-        "name": "message",
+        "name": "about",
         "placeholder": "Project description",
         "rows": 3
       }

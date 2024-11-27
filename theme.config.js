@@ -110,10 +110,10 @@ export const config = {
     tipUrl: 'https://fantastic-mover-3439.ck.page/products/blog',
   },
   contactForm: {
+    base_url: process.env.API_BASE_URL,
     inputs: require('./content/contact-form.json'),
-    recipient: 'ghaptonstall@gmail.com.com',
-    sender: 'SENDER@EXAMPLE.com',
-    subject: 'EMAIL NOTIFICATION',
+    recipient: 'inmoshynekomix@gmail.com',
+    subject: 'GFOLIO EMAIL NOTIFICATION',
   },
 }
 

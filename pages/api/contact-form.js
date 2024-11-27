@@ -3,34 +3,15 @@
  * will be treated as an API endpoint instead of a page.        *
  ****************************************************************/
 
-import sendgrid from '@sendgrid/mail'
+import axios from "axios";
 import { config } from '../../theme.config'
 
-sendgrid.setApiKey(process.env.SENDGRID_API_KEY)
-
+const API_BASE_URL = process.env.API_BASE_URL;
 const contact = async (req, res) => {
   const { email } = req.body
-  const { recipient, sender, subject } = config.contactForm || {}
+  const { recipient, subject } = config.contactForm || {}
 
-  if (!recipient) {
-    return res
-      .status(400)
-      .json({ error: 'Missing [config.contactForm.recipient] property in theme options.' })
-  }
-  if (!sender) {
-    return res
-      .status(400)
-      .json({ error: 'Missing [config.contactForm.sender] property in theme options.' })
-  }
-  if (!email) {
-    return res
-      .status(400)
-      .json({ error: 'Missing email address. Please provide a correct email address.' })
-  }
-
-  if (req.method !== 'POST') {
-    return res.status(405).send({ error: 'Request method is not allowed.' })
-  }
+  if (!email) return res.status(400).json({ error: 'Missing email address. Please provide a correct email address.' });
 
   const getHtmlBody = (body) => {
     return Object.entries(body).map(([key, value]) => {
@@ -52,19 +33,16 @@ const contact = async (req, res) => {
     html = html.join('<br />')
   }
 
-  try {
-    await sendgrid.send({
-      to: recipient, // Your email where you'll receive emails
-      from: recipient, // your website email address here
-      replyTo: email,
-      subject: req.body.subject || subject || 'Contact form entry',
-      html,
-    })
-  } catch (error) {
-    return res.status(error.statusCode || 500).json({ error: error.message })
-  }
+  await axios.post(API_BASE_URL + "mail/project", {
+    to: recipient, // Your email where you'll receive emails
+    from: recipient, // your website email address here
+    replyTo: email,
+    subject: req.body.subject || subject || 'Contact form entry',
+    html,
+  })
+  .then((response) => { return res.status(200).json({response, success: true})})
+  .catch((error) => { return res.status(400).json({error, success: false})})
 
-  return res.status(200).json({ error: '' })
 }
 
 export default contact

@@ -1,5 +1,6 @@
 import React from 'react'
 import classNames from 'clsx'
+import axios from "axios";
 import { useForm, FormProvider } from 'react-hook-form'
 import ContentRenderer from '@/components/ContentRenderer'
 import Reveal from '@/components/Reveal'
@@ -13,7 +14,7 @@ import { SlCheck } from 'react-icons/sl'
 import { config } from '../theme.config'
 
 const { inputs } = config.contactForm || {}
-
+const API_BASE_URL = config.contactForm.base_url;
 const FormComponent = {
   text: FormInput,
   textarea: FormTextarea,
@@ -39,6 +40,7 @@ const SuccessMessage = () => (
   </Reveal>
 )
 
+
 const Contact01 = ({ main = {} }) => {
   const methods = useForm()
   const {
@@ -49,6 +51,19 @@ const Contact01 = ({ main = {} }) => {
     clearErrors,
   } = methods
 
+  const contact = async (data) => {
+    console.log('data = ', data);
+    const email  = data.email
+  
+    if (!email) return res.status(400).json({ error: 'Missing email address. Please provide a correct email address.' });
+
+    await axios.post("http://localhost:4000/fear/api/mail/project", data)
+    .then((res) => {if (res.success) return true })
+    .catch((error) => { return false });
+  
+
+  }
+  /*
   const onSubmit = async (data) => {
     try {
       const res = await fetch(`/api/contact-form`, {
@@ -70,7 +85,7 @@ const Contact01 = ({ main = {} }) => {
       setError('service', { type: 'serviceSideError', message: error })
     }
   }
-
+  */
   React.useEffect(() => {
     if (errors.service && isValidating) {
       clearErrors('service')
@@ -91,7 +106,7 @@ const Contact01 = ({ main = {} }) => {
           className="md:with-back-plate max-w-3xl border border-omega-700 md:before:bg-omega-700"
         >
           <FormProvider {...methods}>
-            <form onSubmit={handleSubmit(onSubmit)}>
+            <form onSubmit={handleSubmit(contact)}>
               <div className="relative overflow-hidden shadow">
                 {isSubmitSuccessful && <SuccessMessage />}
                 <div className="bg-gradient-omega-900">
