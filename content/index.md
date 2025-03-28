@@ -14,51 +14,30 @@ slogan: Face Everything and Rise
 ## <Typewriter>Full-Stack Developer</Typewriter>
 
 ##### <span>Based in Central TX</span>
-
+ 
 <Sep size={6} line className='max-w-sm mx-auto' />
 
-I've developed relational database driven applications and web sites using a LAMP stack, I have also developed DB driven apps using a Node JS and Nginx web stack and have configured / administrated both. Programming languages that I have developed with include JavaScript, jQuery, Perl, SQL, Java, PHP, CSS, XML, CGI, HTML, AJAX and XSL. Experience developing utility and network applications with Java for Android smart-phones and tablets. I have also configured and maintained services such as LDAP, FTP, SSH, NTP, DNS, Named, SendMail, Postfix and Tomcat. I have knowledge of most networking protocols, ticketing and POS systems (MICROS), configuring routers with all security types, static \ dynamic IP's, domains and virtual private servers, Firewalls such as IP-Tables / Chains, and the Cisco IOS. 
-
+Gfolio will show you my resume with details on the mentioned skill sets and work history. I really look forward to receiving your input, and possibly scheduling a meeting to discuss this position further. Please feel free to contact me directly by phone or email, and again thank you for your time and consideration.
 
   ```js  {4-7} showLineNumbers
-  import contact from './contact.js';
+  import FEAR from './FEAR.js';
 
-  // below 3 lines are highlighted
-  const person = {
-    name: 'Sara',
-    age: 25,
-  }
+  (async () => {
 
-  let name = person.name;
-  let age = person.age;
+    async function start() {
+    
+        FEAR.db.run( FEAR.env, () => {
+            FEAR.app.listen( port, (err) => {
+                if ( err ) return;
+                FEAR.log.info(`FEAR API Initialized :: Port ${port}`);
+            });
+        });
+    }
 
-  // returns a promise
-  let countValue = new Promise(function (resolve, reject) {
-    reject('Promise rejected');
-  });
+    await start();
+
+  })( FEAR );
   ```
-
-
-#### <span>Featured Articles</span>
-
-Featured handcrafted articles about my thoughts and experiments.
-
----achievements
-- number: 6+
-  text: Years of experience
-- number: 60+
-  text: Projects Completed
-- number: 12
-  text: OpenSource Libraries
-- number: 50+
-  text: Happy Customers
----
-
----cta
----
-<Button href="/contact" size="sm">
-  Download Resume
-</Button>
 
 ---companies
 title: Trusted By
@@ -76,3 +55,39 @@ list:
     icon:
       src: /icons/logo-4.svg
 ---
+
+---articles
+collection:
+  path: /blog
+  recordsPerPage: 6
+  limit: 6
+  sortBy: date
+  filterBy:
+    featured:
+      $eq: true
+---
+
+<Newsletter className="bg-omega-800 p-10" />
+
+#### <span>Featured Articles</span>
+
+Featured handcrafted articles about my thoughts and experiments.
+
+---achievements
+- number: 10+
+  text: Years of experience
+- number: 30+
+  text: Personal Repositories
+- number: 5
+  text: OpenSource Libraries
+- number: 50+
+  text: Happy Customers
+---
+
+---cta
+---
+
+<Button href="Ghaptonstall_Resume.pdf" size="sm" download="ghap_resume">
+  Download Resume
+</Button>
+<TipJar />

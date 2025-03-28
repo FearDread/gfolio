@@ -36,7 +36,16 @@ sponge.
 - number: 50+
   text: Happy Customers
 ---
-
+---github
+- number: 10+
+  text: Years of experience
+- number: 30+
+  text: Personal Repositories
+- number: 5
+  text: OpenSource Libraries
+- number: 2+
+  text: Published Packages
+---
 
 
 ---cta

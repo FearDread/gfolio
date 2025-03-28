@@ -17,12 +17,12 @@ import { SlUser, SlBriefcase, SlEnvolope, SlTrophy } from 'react-icons/sl'
 export const menu = [
   {
     name: 'Home',
-    slug: '/index-4',
+    slug: '/',
     Icon: TfiHome,
   },
   {
     name: 'Details',
-    slug: '/index-5',
+    slug: '/details',
     Icon: TfiPencilAlt,
   },
   {
@@ -110,10 +110,10 @@ export const config = {
     tipUrl: 'https://fantastic-mover-3439.ck.page/products/blog',
   },
   contactForm: {
+    base_url: process.env.API_BASE_URL,
     inputs: require('./content/contact-form.json'),
-    recipient: 'ghaptonstall@gmail.com.com',
-    sender: 'SENDER@EXAMPLE.com',
-    subject: 'EMAIL NOTIFICATION',
+    recipient: 'inmoshynekomix@gmail.com',
+    subject: 'GFOLIO EMAIL NOTIFICATION',
   },
 }
 
@@ -141,7 +141,7 @@ export const siteMetaData = {
   siteName: 'GFolio',
   defaultTitle: 'G-Haps Personal Site',
   titleTemplate: 'Garrett Haptonstall | %s',
-  description: 'A Pioneer in the DevOps Field',
+  description: 'The jack of all things Information Technology',
   email: 'ghaptonstall@gmail.com',
   locale: 'en_US',
   twitter: {

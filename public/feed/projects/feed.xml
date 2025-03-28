@@ -3,8 +3,13 @@
     <channel>
         <title>G-Haps Personal Site</title>
         <link>http://localhost:3001</link>
+<<<<<<< HEAD
         <description>A Pioneer in the DevOps Field</description>
         <lastBuildDate>Fri, 23 Aug 2024 15:31:30 GMT</lastBuildDate>
+=======
+        <description>The jack of all things Information Technology</description>
+        <lastBuildDate>Sat, 30 Nov 2024 11:16:39 GMT</lastBuildDate>
+>>>>>>> dfa2bf2a3de25281673a20ab1d7bcdfdee6d04ab
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en_US</language>
@@ -15,51 +20,27 @@
         </image>
         <copyright>All rights reserved 2024, GFolio</copyright>
         <item>
-            <title><![CDATA[Agency website design for devops company]]></title>
-            <link>http://localhost:3001/projects/agency-website-development-for-dev-x</link>
-            <guid>http://localhost:3001/projects/agency-website-development-for-dev-x</guid>
-            <pubDate>Mon, 21 Nov 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Lorem ipsum dolor sit amet consectetur adipiscing elit mattis faucibus odio feugiat arcu scelerisque drogon sit amenot.]]></description>
+            <title><![CDATA[Branding Agency Replaced Ten Tools With Just One]]></title>
+            <link>http://localhost:3001/projects/e-komix/e-komix-project-details</link>
+            <guid>http://localhost:3001/projects/e-komix/e-komix-project-details</guid>
+            <pubDate>Tue, 05 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Officia qui magna laboris laborum eu sit sit. Et dolor qui esse commodo ad dolor nostrud.]]></description>
             <author>ghaptonstall@gmail.com (GFolio)</author>
         </item>
         <item>
-            <title><![CDATA[Application design for finance startup]]></title>
-            <link>http://localhost:3001/projects/application-design-for-finance-startup</link>
-            <guid>http://localhost:3001/projects/application-design-for-finance-startup</guid>
-            <pubDate>Mon, 21 Nov 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[The Time Traveller (for so it will be convenient to speak of him) was expounding a recondite matter to us.]]></description>
+            <title><![CDATA[Fear Admin Dashboard - Main CRM utalizing the FEAR API for E-Com]]></title>
+            <link>http://localhost:3001/projects/fear-admin/fear-admin-project-details</link>
+            <guid>http://localhost:3001/projects/fear-admin/fear-admin-project-details</guid>
+            <pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Official Content management system for managing online stores.]]></description>
             <author>ghaptonstall@gmail.com (GFolio)</author>
         </item>
         <item>
-            <title><![CDATA[Brand refresh for saas cloud platform application]]></title>
-            <link>http://localhost:3001/projects/brand-refresh-for-technology-app</link>
-            <guid>http://localhost:3001/projects/brand-refresh-for-technology-app</guid>
-            <pubDate>Mon, 21 Nov 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[The Time Traveller (for so it will be convenient to speak of him) was expounding a recondite matter to us.]]></description>
-            <author>ghaptonstall@gmail.com (GFolio)</author>
-        </item>
-        <item>
-            <title><![CDATA[Crypto website development for DeFi X]]></title>
-            <link>http://localhost:3001/projects/crypto-website-development-for-defi-x</link>
-            <guid>http://localhost:3001/projects/crypto-website-development-for-defi-x</guid>
-            <pubDate>Tue, 22 Nov 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[The Time Traveller (for so it will be convenient to speak of him) was expounding a recondite matter to us.]]></description>
-            <author>ghaptonstall@gmail.com (GFolio)</author>
-        </item>
-        <item>
-            <title><![CDATA[E-Komix - Cards, Coins and Comics]]></title>
-            <link>http://localhost:3001/projects/ekomix-ecommerce-website-app</link>
-            <guid>http://localhost:3001/projects/ekomix-ecommerce-website-app</guid>
-            <pubDate>Mon, 22 Apr 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[E-Commerce Web app speacalizing in the sale of collectibles such as coins, trading cards (sports, pokemon, etc..) and of course comic books!]]></description>
-            <author>ghaptonstall@gmail.com (GFolio)</author>
-        </item>
-        <item>
-            <title><![CDATA[F.E.A.R Api]]></title>
-            <link>http://localhost:3001/projects/fear-admin-crm-ecommerce-platform</link>
-            <guid>http://localhost:3001/projects/fear-admin-crm-ecommerce-platform</guid>
-            <pubDate>Mon, 22 Apr 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Full GUI for the FEAR api allowing vendors to manage there ecommerce websites, based on Creative Tim's blk design.]]></description>
+            <title><![CDATA[In-Moshyn]]></title>
+            <link>http://localhost:3001/projects/inmoshyn/in-moshyn-project-details</link>
+            <guid>http://localhost:3001/projects/inmoshyn/in-moshyn-project-details</guid>
+            <pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Lets put your idea In - Moshyn.]]></description>
             <author>ghaptonstall@gmail.com (GFolio)</author>
         </item>
     </channel>

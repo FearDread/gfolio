@@ -13,6 +13,7 @@ const layouts = {
   Projects: dynamic(() => import(`@/layouts/Projects`)),
   Fallback: dynamic(() => import(`@/layouts/Fallback`)),
   Blank: dynamic(() => import(`@/layouts/Blank`)),
+  Resume: dynamic(() => import('@/layouts/Resume'), {ssr: false}),
   BlankCentered: dynamic(() => import(`@/layouts/BlankCenter`)),
 }
 

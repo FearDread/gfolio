@@ -2,8 +2,13 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "G-Haps Personal Site",
     "home_page_url": "http://localhost:3001",
+<<<<<<< HEAD
     "feed_url": "/home/feardread/_workspace/_git/gfolio/public/feed/projects/feed.json",
     "description": "A Pioneer in the DevOps Field",
+=======
+    "feed_url": "C:\\__Workspace\\_git\\gfolio\\public\\feed\\projects/feed.json",
+    "description": "The jack of all things Information Technology",
+>>>>>>> dfa2bf2a3de25281673a20ab1d7bcdfdee6d04ab
     "icon": "http://localhost:3001/favicon.ico",
     "author": {
         "name": "GFolio",
@@ -11,66 +16,33 @@
     },
     "items": [
         {
-            "id": "http://localhost:3001/projects/agency-website-development-for-dev-x",
-            "url": "http://localhost:3001/projects/agency-website-development-for-dev-x",
-            "title": "Agency website design for devops company",
-            "summary": "Lorem ipsum dolor sit amet consectetur adipiscing elit mattis faucibus odio feugiat arcu scelerisque drogon sit amenot.",
-            "date_modified": "2022-11-21T00:00:00.000Z",
+            "id": "http://localhost:3001/projects/e-komix/e-komix-project-details",
+            "url": "http://localhost:3001/projects/e-komix/e-komix-project-details",
+            "title": "Branding Agency Replaced Ten Tools With Just One",
+            "summary": "Officia qui magna laboris laborum eu sit sit. Et dolor qui esse commodo ad dolor nostrud.",
+            "date_modified": "2023-09-05T00:00:00.000Z",
             "author": {
                 "name": "GFolio",
                 "url": "https://twitter.com/Ghap205"
             }
         },
         {
-            "id": "http://localhost:3001/projects/application-design-for-finance-startup",
-            "url": "http://localhost:3001/projects/application-design-for-finance-startup",
-            "title": "Application design for finance startup",
-            "summary": "The Time Traveller (for so it will be convenient to speak of him) was expounding a recondite matter to us.",
-            "date_modified": "2022-11-21T00:00:00.000Z",
+            "id": "http://localhost:3001/projects/fear-admin/fear-admin-project-details",
+            "url": "http://localhost:3001/projects/fear-admin/fear-admin-project-details",
+            "title": "Fear Admin Dashboard - Main CRM utalizing the FEAR API for E-Com",
+            "summary": "Official Content management system for managing online stores.",
+            "date_modified": "2024-09-05T00:00:00.000Z",
             "author": {
                 "name": "GFolio",
                 "url": "https://twitter.com/Ghap205"
             }
         },
         {
-            "id": "http://localhost:3001/projects/brand-refresh-for-technology-app",
-            "url": "http://localhost:3001/projects/brand-refresh-for-technology-app",
-            "title": "Brand refresh for saas cloud platform application",
-            "summary": "The Time Traveller (for so it will be convenient to speak of him) was expounding a recondite matter to us.",
-            "date_modified": "2022-11-21T00:00:00.000Z",
-            "author": {
-                "name": "GFolio",
-                "url": "https://twitter.com/Ghap205"
-            }
-        },
-        {
-            "id": "http://localhost:3001/projects/crypto-website-development-for-defi-x",
-            "url": "http://localhost:3001/projects/crypto-website-development-for-defi-x",
-            "title": "Crypto website development for DeFi X",
-            "summary": "The Time Traveller (for so it will be convenient to speak of him) was expounding a recondite matter to us.",
-            "date_modified": "2022-11-22T00:00:00.000Z",
-            "author": {
-                "name": "GFolio",
-                "url": "https://twitter.com/Ghap205"
-            }
-        },
-        {
-            "id": "http://localhost:3001/projects/ekomix-ecommerce-website-app",
-            "url": "http://localhost:3001/projects/ekomix-ecommerce-website-app",
-            "title": "E-Komix - Cards, Coins and Comics",
-            "summary": "E-Commerce Web app speacalizing in the sale of collectibles such as coins, trading cards (sports, pokemon, etc..) and of course comic books!",
-            "date_modified": "2024-04-22T00:00:00.000Z",
-            "author": {
-                "name": "GFolio",
-                "url": "https://twitter.com/Ghap205"
-            }
-        },
-        {
-            "id": "http://localhost:3001/projects/fear-admin-crm-ecommerce-platform",
-            "url": "http://localhost:3001/projects/fear-admin-crm-ecommerce-platform",
-            "title": "F.E.A.R Api",
-            "summary": "Full GUI for the FEAR api allowing vendors to manage there ecommerce websites, based on Creative Tim's blk design.",
-            "date_modified": "2024-04-22T00:00:00.000Z",
+            "id": "http://localhost:3001/projects/inmoshyn/in-moshyn-project-details",
+            "url": "http://localhost:3001/projects/inmoshyn/in-moshyn-project-details",
+            "title": "In-Moshyn",
+            "summary": "Lets put your idea In - Moshyn.",
+            "date_modified": "2024-09-05T00:00:00.000Z",
             "author": {
                 "name": "GFolio",
                 "url": "https://twitter.com/Ghap205"
